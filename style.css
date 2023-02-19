@@ -7,7 +7,7 @@ body {
   margin: auto;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .card {
@@ -26,7 +26,7 @@ body {
 .card .bloc_text h1 {
   color: hsl(218deg, 44%, 22%);
   width: 100%;
-  font-size: 24px;
+  font-size: 1.6em;
 }
 .card .bloc_text p {
   color: hsl(220deg, 15%, 55%);
