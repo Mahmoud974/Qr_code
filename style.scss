@@ -10,7 +10,7 @@ body{
     background: $Lightgray;
     color: $white;
     display: flex;
-    margin: auto;
+  
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -29,6 +29,7 @@ width: 100%;
 }
 .bloc_text{
     text-align: center;
+    font-size: 0.9375rem;
 h1{
     color: $DarkBlue;
     width: 100%;
