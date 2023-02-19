@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+//Paramtres des couleurs
+$white: hsl(0, 0%, 100%);
+$Lightgray: hsl(212, 45%, 89%);
+$GrayishBlue: hsl(220, 15%, 55%);
+$DarkBlue: hsl(218, 44%, 22%);
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background: $Lightgray;
+    color: $white;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.card{
+    margin: 20px;
+
+    background: $white;
+    padding: 20px;
+    border-radius: 15px;
+    .qr_code_img{
+width: 100%;
+    border-radius: 5%;
+}
+.bloc_text{
+    text-align: center;
+h1{
+    color: $DarkBlue;
+    width: 100%;
+     font-size: 24px;
+}
+p{
+    color:$GrayishBlue;
+}
+}
+
+}
+//Responsive de la carte à partir de 425px
+@media screen and (min-width: 425px){
+    .card{
+        width: 300px;
+    }
+
+}
